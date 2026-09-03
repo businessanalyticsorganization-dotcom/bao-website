@@ -154,6 +154,29 @@ nav .nav-cta:hover { background: #cfa412; color: var(--ink); }
 }
 
 /* --------------------------------------------------------------------------
+   3b. Promo banner — points first-time visitors at the resources page
+   -------------------------------------------------------------------------- */
+.promo-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 14px;
+  padding: 13px clamp(20px, 5vw, 48px);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+  transition: background 0.18s ease;
+}
+.promo-banner:hover { background: rgba(224, 180, 32, 0.28); }
+.promo-banner b { font-weight: 800; }
+.promo-go { display: inline-flex; align-items: center; gap: 6px; font-weight: 800; color: var(--gold-deep); white-space: nowrap; }
+
+/* --------------------------------------------------------------------------
    4. Buttons and links
    -------------------------------------------------------------------------- */
 .button {
@@ -465,6 +488,7 @@ footer p { margin: 0; font-size: 13px; }
   nav a:hover, nav a[aria-current="page"] { border-color: var(--line); }
   nav .nav-cta { margin-top: 14px; text-align: center; justify-content: center; border-bottom: 0; }
 
+  .promo-banner { gap: 4px 10px; padding: 11px 20px; font-size: 14px; }
   .hero p, .lede, .page-hero p:not(.eyebrow) { font-size: 17px; }
   .hero-photo img { aspect-ratio: 3 / 2; }
   .event-card { grid-template-columns: 1fr; gap: 8px; }
