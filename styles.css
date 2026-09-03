@@ -419,13 +419,19 @@ nav .nav-cta:hover { background: #cfa412; color: var(--ink); }
    10. Contact page
    -------------------------------------------------------------------------- */
 .contact-frame {
-  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--paper);
   box-shadow: var(--shadow);
 }
-.contact-form { display: block; width: 100%; height: 1200px; border: 0; background: var(--paper); }
+.contact-form {
+  display: block;
+  width: 100%;
+  height: 1200px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--paper);
+}
 .form-fallback { margin-top: 16px; font-size: 15px; }
 .form-fallback a { font-weight: 700; border-bottom: 1.5px solid var(--gold); }
 
@@ -493,5 +499,6 @@ footer p { margin: 0; font-size: 13px; }
   .hero-photo img { aspect-ratio: 3 / 2; }
   .event-card { grid-template-columns: 1fr; gap: 8px; }
   .resource-note { flex-direction: column; align-items: flex-start; }
+  .contact-form { height: 1500px; }
   .footer-links { order: 3; width: 100%; }
 }
