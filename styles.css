@@ -356,22 +356,6 @@ nav .nav-cta:hover { background: #cfa412; color: var(--ink); }
   gap: 18px;
   margin-top: 28px;
 }
-/* Value badges: what you get, readable at a glance */
-.resource-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2px; }
-.tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 5px 11px;
-  border-radius: 999px;
-  background: rgba(224, 180, 32, 0.18);
-  color: var(--gold-deep);
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-}
-/* Marks the one card that uses BAO's own referral link */
-.tag-partner { background: var(--gold); color: var(--ink); }
-
 .resource-card {
   display: flex;
   flex-direction: column;
@@ -392,8 +376,6 @@ nav .nav-cta:hover { background: #cfa412; color: var(--ink); }
 .resource-card-featured h3 { color: #ffffff; }
 .resource-card-featured p { color: rgba(247, 243, 234, 0.78); }
 .resource-card-featured .text-link { color: #ffffff; border-color: var(--gold); }
-.resource-card-featured .tag { background: rgba(255, 255, 255, 0.14); color: #f2e8cf; }
-.resource-card-featured .tag-partner { background: var(--gold); color: var(--ink); }
 
 .section-tight { padding-top: clamp(40px, 5vw, 64px); padding-bottom: clamp(60px, 7vw, 88px); }
 .section-flush { padding-top: clamp(34px, 4vw, 52px); }
