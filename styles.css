@@ -502,3 +502,4 @@ footer p { margin: 0; font-size: 13px; }
   .contact-form { height: 1500px; }
   .footer-links { order: 3; width: 100%; }
 }
+.card .text-link { overflow-wrap: anywhere; }
